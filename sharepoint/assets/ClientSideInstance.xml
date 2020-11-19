@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="QuestionCard"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ListTemplateId="100"
+        Properties="{&quot;ListName&quot;:&quot;Список вопросов и ответов&quot;, &quot;PageName&quot;:&quot;Questions-To-CEO&quot;}"
+        ComponentId="4932dd3f-779b-4c7c-892d-3b78d00194c2" />
+</Elements>

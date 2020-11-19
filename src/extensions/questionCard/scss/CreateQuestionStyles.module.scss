@@ -1,0 +1,17 @@
+@import '~office-ui-fabric-core/src/sass/_References.scss';
+
+$themePrimary: '[theme:themePrimary, default:#0078d7]';
+$themeWhite: '[theme:white, default:white]';
+$themeDarker: '[theme:themeDarker, default: #5b1519]';
+$themeLighter: '[theme:themeLighter, default:#f0d3d4]';
+
+:global(.ms-Panel-main) {
+  min-width: 600px;
+}
+
+// styles for "Create Question" button
+.newTeamDetailsBlock {
+  .detailsRow .detailsLabel {
+    width: 40%;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "4932dd3f-779b-4c7c-892d-3b78d00194c2",
+  "alias": "QuestionCardCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "items": {
+    "NEW_QUESTION": {
+      "title": { "default": "Задать вопрос" },
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABBklEQVRIS2P8////fwYaAkaYBe8+fGbIrJnB8ODJK6pZpyAjxgC34Ou3HwwrNh9m+PjlO1UsuHn3CcOHT18RFlDFVCRDVm45wrBux3GIBSBO35yNVLEDFCzTWzIYdh+5iGrB7OW7GJyt9RjY2dnItggWLFgtAHkHJCEkwEu2BbBgGZwWnL50m+HS9QcMEb62DNxcHFh9SZEPkDXjCsZRC8DpGl9KIzqISCmXilL8GcJ9bMCRTrQF2MolUCa6+/AFRma0NdVkMNVTJc0CbGlwNBWRlEJoktGIKQGJTkXEGEYoIWDUB4QyETGW4vUBtWs0WDyBq0xQUXz49HViHElQDT8PJ0qRDgBaz/IucpNAZwAAAABJRU5ErkJggg==",
+      "type": "command"
+    },
+    "RESPONSE_TO_QUESTION": {
+      "title": { "default": "Карточка вопроса" },
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA50lEQVRIS9WVwQ2CQBBFP1dJCKEJPGANeNAzBM9YAtYifUjgjAepQQ7SBCE0sAbNKiSwQoZNZBt4mTd//yiMMQaJT1k+4Oj7LM/vUiRZ1gZKAzAMA+banBVSPAqUZfkGeAcPjuPOCkiSGNEl+gJse4tTEICqq9FyDkNk2a0fQNHFtQgBFF1cixAgTdF+t0ecxKjrmrRsTdPgOi7Sa9rdwV+kiCdE13VUVdWbusEUjVHEx1+p6gfQTp0wRVMV8QnaqROmSDpAuqIxVUFa8lRFvz5Lp+wo/TME6tQ1tR6GIK+Ds/ybLHuCJ9JWIa7g9Jp3AAAAAElFTkSuQmCC",
+      "type": "command"
+    }
+  }
+}

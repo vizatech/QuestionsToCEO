@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://syngaivskyi.sharepoint.com/sites/nipi/Lists/Questions/AllItems.aspx",
+      "customActions": {
+        "4932dd3f-779b-4c7c-892d-3b78d00194c2": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "ListName": "Список вопросов и ответов",
+            "PageName": "Questions-To-CEO"
+          }
+        }
+      }
+    },
+    "questionCard": {
+      "pageUrl": "https://syngaivskyi.sharepoint.com/sites/nipi/Lists/Questions/AllItems.aspx",
+      "customActions": {
+        "4932dd3f-779b-4c7c-892d-3b78d00194c2": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "ListName": "Список вопросов и ответов",
+            "PageName": "Questions-To-CEO"
+          }
+        }
+      }
+    }
+  }
+}

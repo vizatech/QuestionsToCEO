@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "NIPIGAS questions",
+    "id": "42510cb8-3a7a-4861-b2b7-877f2c99030a",
+    "version": "1.0.0.4",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "9348c59d-d3a0-446f-bb44-d110bf2513c1",
+        "version": "1.0.0.4",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/nipigas-questions.sppkg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "question-card-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/questionCard/QuestionCardCommandSet.js",
+          "manifest": "./src/extensions/questionCard/QuestionCardCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CreateQuestionStrings": "lib/extensions/questionCard/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
